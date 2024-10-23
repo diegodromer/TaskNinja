@@ -1,9 +1,12 @@
 import { Text, View } from "react-native";
+import { style } from "./styles";
 
 export default function List() {
   return (
-    <View style={{flex:1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>LISTA</Text>
+    <View style={style.container}>
+      <View style={style.header}>
+        <Text>Bom dia D</Text>
+      </View>
     </View>
   )
 }
