@@ -24,14 +24,14 @@ export default function Login() {
         return Alert.alert("Atenção", "Informe os campos obrigatórios!");
       }
       setTimeout(() => {
-        if (email == "diego" && password == "12") {
+        if (email == "1" && password == "1") {
           Alert.alert("Logado com sucesso");
           navigation.reset({ routes: [{ name: "BottomRoutes" }] });
         } else {
           Alert.alert("Email ou senha inválidos!");
         }
         setLoading(false);
-      }, 2000);
+      }, 1000);
     } catch (error) {
       console.log(error);
     }
